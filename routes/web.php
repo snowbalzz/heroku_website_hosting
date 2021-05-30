@@ -26,5 +26,5 @@ require __DIR__.'/auth.php';
 use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\TestController;
 
-Route::resource('/article', ArticleController::class);
+Route::resource('/article', ArticleController::class)->middleware(['auth']);
 Route::resource('/', TestController::class);
