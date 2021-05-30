@@ -155,7 +155,7 @@ return [
     |
     */
 
-    'domain' => env('SESSION_DOMAIN', null),
+    'domain' => env('SESSION_DOMAIN', 'https://warm-chamber-68971.herokuapp.com/'),
 
     /*
     |--------------------------------------------------------------------------
